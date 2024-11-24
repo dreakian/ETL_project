@@ -22,17 +22,17 @@ To develop and showcase an end-to-end data pipeline that handles data generation
 
 The tasks of this learning project are:
 
-1) Use an API and Python scripts to automatically generate several csv files based on user input.
+1) (working) Use an API and Python scripts to automatically generate several csv files based on user input.
    
-2) Use dbt Seeds to bring data files into a local database that can be observed through MySQL Workbench.
+2) (planned) Use dbt Seeds to bring data files into a local database that can be observed through MySQL Workbench.
    
-3) Use dbt to create transformed tables based on Bronze-Silver-Gold architecture pattern.
+3) (planned) Use dbt to create transformed tables based on Bronze-Silver-Gold architecture pattern.
    
-4) Use dbt features like macros and tests to ensure that data quality checks catch errors/issues before downstream applications.
+4) (planned) Use dbt features like tests to ensure that data quality checks catch errors/issues before data reaches downstream applications.
    
 5) (planned) Use an orchestrator tool (like Dagster) to automate the previous four tasks.
     
-6) Use Tableau to create reporting dashboards that show period-over-period changes of metrics like A, B, C which are essential for X, Y, Z business functions.
+6) (planned) Use Tableau to create reporting dashboards that show period-over-period changes of metrics like A, B, C which are essential for X, Y, Z business functions.
 
 # Tools 
 
