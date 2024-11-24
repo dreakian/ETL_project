@@ -1,15 +1,5 @@
 # ETL Project 
 
-to-do:
-- add table of contents with working links for ease of navigation
-- add "Lessons Learned" section 
-- (ongoing) - additional documentation of data assets (DAGs, ERDs, data dictionary, key audience for assets, etc. -- more relevant imagery) 
-- add "Executive Summary" section for different personas (C-Suite, Middle Management, direct stakeholders, possible other end-users
-- add "Limitations and Considerations" (things that can be improved + things to add)
-- add "So What?" section that explores why builing out well-designed ETL pipelines are important
-- (ongoing) - "misc" section which represents helpful resources (videos, articles, feedback acknowledgement, etc.)
-  
-
 # Project Description
 
 ETL project that uses three Python scripts to make requests to the Mockaroo API so that data can be programmatically generated and downloaded as .csv files. These data files, located in *_data folders, will later be ingested into MySQL Workbench and transformed using dbt.
@@ -41,3 +31,14 @@ The tasks of this learning project are:
 - MySQL
 - dbt
 - ChatGPT 
+
+
+
+to-do:
+- add table of contents with working links for ease of navigation
+- add "Lessons Learned" section 
+- (ongoing) - additional documentation of data assets (DAGs, ERDs, data dictionary, key audience for assets, etc. -- more relevant imagery) 
+- add "Executive Summary" section for different personas (C-Suite, Middle Management, direct stakeholders, possible other end-users
+- add "Limitations and Considerations" (things that can be improved + things to add)
+- add "So What?" section that explores why builing out well-designed ETL pipelines are important
+- (ongoing) - "misc" section which represents helpful resources (videos, articles, feedback acknowledgement, etc.)
