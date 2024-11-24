@@ -30,8 +30,8 @@ The tasks of this learning project are:
 
 # Tools 
 
-Mockaroo API
-Python 
-MySQL
-dbt
-ChatGPT 
+- Mockaroo API
+- Python 
+- MySQL
+- dbt
+- ChatGPT 
