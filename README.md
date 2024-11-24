@@ -1,12 +1,13 @@
 # ETL Project 
 
 to-do:
-- add table of contents
+- add table of contents with working links for ease of navigation
 - add "Lessons Learned" section 
-- add additional documentation of data assets (DAGs, ERDs, data dictionary, key audience for assets, etc.)
+- add additional documentation of data assets (DAGs, ERDs, data dictionary, key audience for assets, etc. -- more relevant imagery) 
 - add "Executive Summary" section for different personas (C-Suite, Middle Management, direct stakeholders, possible other end-users
 - add "Limitations and Considerations" (things that can be improved + things to add)
 - add "So What?" section that explores why builing out well-designed ETL pipelines are important
+- add "Sources" section which represents helpful resources (videos, articles, feedback acknowledgement, etc.)
   
 
 # Project Description
