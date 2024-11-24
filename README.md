@@ -34,7 +34,7 @@ The tasks of this learning project are:
 
 
 
-to-do:
+# to-do:
 - add table of contents with working links for ease of navigation
 - add "Lessons Learned" section 
 - (ongoing) - additional documentation of data assets (DAGs, ERDs, data dictionary, key audience for assets, etc. -- more relevant imagery) 
