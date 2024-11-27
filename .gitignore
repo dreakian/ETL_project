@@ -1,3 +1,5 @@
 # ignore .env files 
 
 *.env
+
+*.yaml
