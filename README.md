@@ -12,7 +12,7 @@ To develop and showcase an end-to-end data pipeline that handles data generation
 
 The tasks of this learning project are:
 
-1) (working) Use an API and Python scripts to automatically generate several csv files based on user input.
+1) (completed) Use an API and Python script to automatically generate several csv files. Behavior of Python script is based on a yaml configuration file. 
    
 2) (planned) Use dbt Seeds to bring data files into a local database that can be observed through MySQL Workbench.
    
