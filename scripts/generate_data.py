@@ -2,7 +2,7 @@ import requests
 import csv
 import os
 import time
-import yaml  
+import yaml
 from dotenv import find_dotenv, load_dotenv
 
 # Finds and instantiates the .env file
@@ -18,11 +18,11 @@ def load_config(config_file='config.yaml'):
 api_key = os.getenv("API_KEY")  # Passes the value of "API_KEY" from the .env file into the variable "api_key"
 base_url = "https://api.mockaroo.com/api/"
 
-# File destination base (you can modify as needed)
-base_file_destination = "C:\\Users\\lyon2\\Desktop\\raw_data\\"
-
 # Load the configuration from the YAML file
 config = load_config()
+
+# File destination base (can be modified in the config yaml file)
+base_file_destination = config["file_destination"]["file_location"]
 
 # Debugging: Print out the loaded config to see its structure
 print("Loaded config:", config)
@@ -37,7 +37,7 @@ print("Schemas:", schemas)
 
 # Function to download and save data to a CSV
 def download_data(schema_name, schema_id, num_of_rows, api_key, file_amount):
-    # Ensure the directory exists
+    # Create a subfolder for the schema within the base file destination
     file_destination = os.path.join(base_file_destination, schema_name)
     if not os.path.exists(file_destination):
         os.makedirs(file_destination)
