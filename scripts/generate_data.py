@@ -21,8 +21,12 @@ base_url = "https://api.mockaroo.com/api/"
 # Load the configuration from the YAML file
 config = load_config()
 
-# File destination base (can be modified in the config yaml file)
-base_file_destination = config["file_destination"]["file_location"]
+# Get the current working directory
+current_working_dir = os.getcwd()
+
+# File destination base, dynamically set based on the current working directory
+relative_file_location = config["file_destination"]["file_location"]
+base_file_destination = os.path.join(current_working_dir, relative_file_location)
 
 # Debugging: Print out the loaded config to see its structure
 print("Loaded config:", config)
